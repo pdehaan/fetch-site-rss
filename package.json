@@ -1,0 +1,29 @@
+{
+  "name": "fetch-site-rss",
+  "description": "Fetch a site's RSS feed",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/fetch-site-rss/issues"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "node-fetch": "^1.6.0",
+    "simple-rss": "^1.0.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/fetch-site-rss#readme",
+  "keywords": [
+    "rss",
+    "feed"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/fetch-site-rss.git"
+  },
+  "scripts": {
+    "test": "node test"
+  }
+}
